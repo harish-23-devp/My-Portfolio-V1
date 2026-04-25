@@ -31,10 +31,9 @@ type ExperienceItem = {
             {experiences.map((item) => (
               <article
                 key={item.id}
-                className="flex h-[192px] w-full flex-col justify-start rounded-md border border-zinc-500 px-6 py-[30px]"
+                className="flex w-full flex-col justify-start rounded-md border border-zinc-500 px-6 py-[30px]"
               >
-                <div className="flex items-start justify-between">
-                
+                <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">                
                 <div className="flex items-start gap-4">
                   <Image
                     src={item.logo}
@@ -42,14 +41,14 @@ type ExperienceItem = {
                     width={40}
                     height={40}
                     className="h-10 w-10 object-contain"
-                  />
-                  <h3 className="text-2xl font-semibold text-white">
-                    {item.company}
-                  </h3>
+                    />
+                    <h3 className="text-lg sm:text-2xl font-semibold text-white break-words">
+                      {item.company}
+                    </h3>
                 </div>
-                <p className="text-base text-zinc-300">{item.duration}</p>
+                <p className="text-sm sm:text-base text-zinc-300 whitespace-nowrap sm:whitespace-normal">{item.duration}</p>
                 </div>
-                <p className="mt-7 text-base leading-7 text-zinc-300">
+                <p className="mt-4 sm:mt-7 text-sm sm:text-base leading-6 sm:leading-7 text-zinc-300">
                   {item.roleDescription}
                 </p>
               </article>
