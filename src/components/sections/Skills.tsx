@@ -53,11 +53,11 @@ export default function Skills() {
         >
           {pages.map((group, groupIndex) => (
             <div key={groupIndex} className="w-full shrink-0">
-              <div className="mx-auto grid max-w-[1030px] grid-cols-5 gap-6">
+              <div className="mx-auto grid max-w-[1030px] gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">{" "}
                 {group.map((skill, index) => (
                   <div
                     key={`${skill.name}-${index}`}
-                    className="group flex h-[186px] w-[186px] flex-col items-center justify-center gap-8 rounded-md border-2 border-black bg-white transition-colors duration-300 hover:bg-black"
+                    className="group flex aspect-square w-full flex-col items-center justify-center gap-4 rounded-md border-2 border-black bg-white transition-colors duration-300 hover:bg-black"
                   >
                     <Image
                       src={skill.icon}
@@ -66,7 +66,7 @@ export default function Skills() {
                       height={56}
                       className="h-[56px] w-[56px] object-contain transition duration-300 group-hover:invert"
                     />
-                    <p className="text-[20px] font-medium text-black transition duration-300 group-hover:text-white">
+                    <p className="text-sm sm:text-base font-medium text-black transition duration-300 group-hover:text-white">
                       {skill.name}
                     </p>
                   </div>
