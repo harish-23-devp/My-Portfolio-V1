@@ -1,30 +1,14 @@
 "use client";
 
 import Image from "next/image";
+import { socialLinks } from "@/data/data";
 
 const fieldClass =
   "w-full max-w-[500px] h-14 border rounded-md border-black text-black px-3 transition-colors hover:bg-neutral-100 outline-none placeholder:text-[#71717A]";
 
 const textareaClass =
   "w-full max-w-[500px] h-[140px] border rounded-md border-black text-black px-3 py-3 transition-colors hover:bg-neutral-100 resize-none outline-none placeholder:text-[#71717A]";
-interface SocialLink {
-  name: string;
-  url: string;
-  icon: string;
-}
 
-const socialLinks: SocialLink[] = [
-  {
-    name: "LinkedIn",
-    url: "https://www.linkedin.com/in/harish-h-v-43b50326b",
-    icon: "/linkedin.svg",
-  },
-  {
-    name: "Github",
-    url: "https://github.com/harish-23-devp",
-    icon: "/github-svgrepo-com.svg",
-  },
-];
 
 export default function Contact() {
   return (
