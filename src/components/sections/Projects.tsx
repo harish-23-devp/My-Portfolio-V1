@@ -3,14 +3,7 @@
 import Image from "next/image";
 import { useMemo, useState } from "react";
 import { projects } from "@/data/data";
-
-interface ProjectItem {
-  id: string;
-  title: string;
-  description: string;
-  image: string;
-  link?: string;
-}
+import type { ProjectItem } from "@/data/data";
 
 const PAGE_SIZE = 3;
 

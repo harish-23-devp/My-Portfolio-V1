@@ -3,6 +3,8 @@ import { Sora, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "next-themes";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const sora = Sora({
   variable: "--font-sora",
@@ -32,10 +34,22 @@ export default function RootLayout({
       className={`${sora.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <ToastContainer
+          position="bottom-right"
+          autoClose={3000}
+          hideProgressBar={true}
+          newestOnTop
+          closeOnClick
+          pauseOnHover
+          theme="light"
+          toastClassName="premium-toast"
+        />
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-          {children}
-          <Footer />
-          </ThemeProvider>
+          <>
+            {children}
+            <Footer />
+          </>
+        </ThemeProvider>
       </body>
     </html>
   );
