@@ -1,27 +1,11 @@
 "use client";
 
 import Image from "next/image";
+import { socialLinks } from "@/data/data";
 // import { Tooltip } from "react-tooltip";
 // import "react-tooltip/dist/react-tooltip.css";
 
-interface SocialLink {
-    name: string;
-    url: string;
-    icon: string;
-}
 
-const socialLinks: SocialLink[] = [
-    {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/harish-h-v-43b50326b",
-        icon: "/linkedin.svg",
-    },
-    {
-        name: "Github",
-        url: "https://github.com/harish-23-devp",
-        icon: "/github-svgrepo-com.svg",
-    },
-];
 const Hero = () => {
     return (
         <>

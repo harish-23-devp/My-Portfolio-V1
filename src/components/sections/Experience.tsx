@@ -1,23 +1,6 @@
 import Image from "next/image";
+import { experiences } from "@/data/data";
 
-type ExperienceItem = {
-    id: number;
-    company: string;
-    logo: string;
-    duration: string;
-    roleDescription: string;
-  };
-  
-  const experiences: ExperienceItem[] = [
-    {
-      id: 1,
-      company: "OrisysIndia Consultancy Services Pvt. Ltd.",
-      logo: "/orisyslogo.svg",
-      duration: "Jun 2023 - Present",
-      roleDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-  ];
 
   export default function Experience() {
     return (

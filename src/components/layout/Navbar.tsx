@@ -1,12 +1,6 @@
 import Link from "next/link";
 import ThemeToggle from "../Theme/ThemeToggle";
-
-const navItems = [
-  { label: "About Me", href: "#about" },
-  { label: "Skills", href: "#skills" },
-  { label: "Projects", href: "#projects" },
-  { label: "Contact Me", href: "#contact" },
-];
+import { navItems } from "@/data/data";
 
 export default function Navbar() {
   return (
@@ -32,7 +26,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <div className="ml-auto flex item-center gap-3">
+        <div className="ml-auto flex items-center gap-3">
           <ThemeToggle />
           <a
             href="/Harish_Frontend_Developer_Resume.pdf"

@@ -2,28 +2,12 @@
 
 import Image from "next/image";
 import { useMemo, useState } from "react";
+import { skills } from "@/data/data";
 
 type Skill = {
   name: string;
   icon: string;
 };
-
-const skills: Skill[] = [
-  { name: "Javascript", icon: "/skills_icons/icon-javscript.svg" }, // first one as requested
-  { name: "TypeScript", icon: "/skills_icons/icon-typescript.svg" },
-  { name: "React", icon: "/skills_icons/icon-react.svg" },
-  { name: "Next.js", icon: "/skills_icons/icon-nextjs.svg" },
-  { name: "Tailwind", icon: "/skills_icons/icon-tailwindcss.svg" },
-  { name: "Node.js", icon: "/skills_icons/icon-nodejs.svg" },
-  { name: "API Integration", icon: "/skills_icons/icon-api-integration.svg" },
-  { name: "Postman", icon: "/skills_icons/icon-postman.svg" },
-  { name: "Git", icon: "/skills_icons/icon-git.svg" },
-  { name: "Figma", icon: "/skills_icons/icon-figma.svg" },
-  { name: "SQL", icon: "/skills_icons/icon-sql.svg" },
-  { name: "Laravel", icon: "/skills_icons/icon-laravel.svg" },
-  { name: "HTML", icon: "/skills_icons/icon-html.svg" },
-  { name: "CSS", icon: "/skills_icons/icon-css.svg" },
-];
 
 const PAGE_SIZE = 10; // 2 rows x 5 columns
 
