@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ThemeToggle from "../Theme/ThemeToggle";
 
 const navItems = [
   { label: "About Me", href: "#about" },
@@ -31,13 +32,14 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <div className="ml-auto">
+        <div className="ml-auto flex item-center gap-3">
+          <ThemeToggle />
           <a
             href="/Harish_Frontend_Developer_Resume.pdf"
             download
-            className="inline-flex items-center gap-2 rounded-lg border border-gray-300 bg-black px-4 py-2 text-sm font-semibold text-white-900 shadow-sm transition hover:text-black hover:bg-gray-50"
+            title="Resume"
+            className="inline-flex items-center gap-2 rounded-full border border-gray-300 bg-black px-4 py-2 text-sm font-semibold text-white-900 shadow-sm transition hover:text-black hover:bg-gray-50"
           >
-            Resume
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -51,7 +53,6 @@ export default function Navbar() {
               <path d="m7 10 5 5 5-5" />
               <path d="M5 21h14" />
             </svg>
-            
           </a>
         </div>
       </nav>

@@ -67,6 +67,26 @@ const Hero = () => {
                                     />
                                 </a>
                             ))}
+                            <a
+                            href="/Harish_Frontend_Developer_Resume.pdf"
+                            download
+                            className="inline-flex items-center gap-2 rounded-lg border border-gray-300 bg-black px-4 py-2 text-sm font-semibold text-white-900 shadow-sm transition hover:text-black hover:bg-gray-50"
+                            >
+                                Resume
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="2"
+                              className="h-4 w-4"
+                              aria-hidden="true"
+                              >
+                              <path d="M12 3v12" />
+                              <path d="m7 10 5 5 5-5" />
+                              <path d="M5 21h14" />
+                            </svg>
+                            </a>
                         </div>
                         {/* <Tooltip
               id="social-tooltip"
