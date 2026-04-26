@@ -23,12 +23,24 @@ type ExperienceItem = {
     roleDescription: string;
 };
 
-interface ProjectItem {
+export interface ProjectItem {
   id: string;
   title: string;
   description: string;
   image: string;
   link?: string;
+}
+
+export interface ContactFormValues {
+  name: string;
+  email: string;
+  message: string;
+}
+
+// Optional: API response type
+export interface ApiResponse {
+  success: boolean;
+  error?: string;
 }
 
 export const navItems: NavItem[] = [
