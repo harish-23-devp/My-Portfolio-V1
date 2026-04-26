@@ -37,7 +37,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="/Harish_Frontend_Developer_Resume.pdf" download className="hover:text-white">
+              <a href="/Harish_Frontend_Developer_Resume.pdf" download className="hover:text-white underline">
                 Download Resume
               </a>
             </li>

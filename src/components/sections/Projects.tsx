@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useMemo, useState } from "react";
+import { projects } from "@/data/data";
 
 interface ProjectItem {
   id: string;
@@ -10,41 +11,6 @@ interface ProjectItem {
   image: string;
   link?: string;
 }
-
-const projects: ProjectItem[] = [
-  {
-    id: "01",
-    title: "Portfolio Website",
-    description:
-      "A modern portfolio built with Next.js App Router, TypeScript, and Tailwind CSS.",
-    image: "/projects/2023-Porsche-911-GT3-RS-009-1536.jpg",
-    link: "https://example.com/project-1",
-  },
-  {
-    id: "02",
-    title: "E-commerce Frontend",
-    description:
-      "Responsive storefront UI with reusable components, smooth interactions, and clean UX.",
-    image: "/projects/2018-BMW-M3-CS-001-1536.jpg",
-    link: "https://example.com/project-2",
-  },
-  {
-    id: "03",
-    title: "Task Management App",
-    description:
-      "Productivity-focused app with drag-drop workflows and clear visual hierarchy.",
-    image: "/projects/2022-Dodge-Challenger-SRT-Hellcat-Jailbreak-001-1536.jpg",
-    link: "https://example.com/project-3",
-  },
-  {
-    id: "04",
-    title: "Analytics Dashboard",
-    description:
-      "Data-rich dashboard with responsive cards, filters, and performance-focused rendering.",
-    image: "/projects/2022-Ford-Mustang-Shelby-GT500-013-1536.jpg",
-    link: "https://example.com/project-4",
-  },
-];
 
 const PAGE_SIZE = 3;
 

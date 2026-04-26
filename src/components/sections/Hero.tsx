@@ -1,27 +1,11 @@
 "use client";
 
 import Image from "next/image";
+import { socialLinks } from "@/data/data";
 // import { Tooltip } from "react-tooltip";
 // import "react-tooltip/dist/react-tooltip.css";
 
-interface SocialLink {
-    name: string;
-    url: string;
-    icon: string;
-}
 
-const socialLinks: SocialLink[] = [
-    {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/harish-h-v-43b50326b",
-        icon: "/linkedin.svg",
-    },
-    {
-        name: "Github",
-        url: "https://github.com/harish-23-devp",
-        icon: "/github-svgrepo-com.svg",
-    },
-];
 const Hero = () => {
     return (
         <>
@@ -70,7 +54,7 @@ const Hero = () => {
                             <a
                             href="/Harish_Frontend_Developer_Resume.pdf"
                             download
-                            className="inline-flex items-center gap-2 rounded-lg border border-gray-300 bg-black px-4 py-2 text-sm font-semibold text-white-900 shadow-sm transition hover:text-black hover:bg-gray-50"
+                            className="inline-flex items-center gap-2 rounded-lg border-2 border-black bg-white px-4 py-2 h-11 text-sm font-semibold text-black shadow-sm transition hover:text-white hover:bg-black"
                             >
                                 Resume
                             <svg
