@@ -54,7 +54,7 @@ const Hero = () => {
                             <a
                             href="/Harish_Frontend_Developer_Resume.pdf"
                             download
-                            className="inline-flex items-center gap-2 rounded-lg border border-gray-300 bg-black px-4 py-2 text-sm font-semibold text-white-900 shadow-sm transition hover:text-black hover:bg-gray-50"
+                            className="inline-flex items-center gap-2 rounded-lg border-2 border-black bg-white px-4 py-2 h-11 text-sm font-semibold text-black shadow-sm transition hover:text-white hover:bg-black"
                             >
                                 Resume
                             <svg
