@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+/* @import 'tailwindcss';
 
 :root {
   --background: #ffffff;
@@ -25,9 +25,9 @@ body {
 
 html {
   scroll-behavior: smooth;
-}
+} */
 
-/* 
+
 @import 'tailwindcss';
 
 :root {
@@ -57,4 +57,4 @@ body {
 
 html {
   scroll-behavior: smooth;
-} */
+} 
