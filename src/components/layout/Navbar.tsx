@@ -27,7 +27,7 @@ export default function Navbar() {
         </ul>
 
         <div className="ml-auto flex items-center gap-3">
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
           <a
             href="/Harish_Frontend_Developer_Resume.pdf"
             download
