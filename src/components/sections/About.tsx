@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" className="w-full bg-white py-20 scroll-mt-16">
+    <section id="about" className="w-full py-20 scroll-mt-16">
       <div className="mx-auto grid w-full max-w-6xl items-start gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
         {/* Left panel */}
         <div className="flex justify-center lg:justify-start">

@@ -31,7 +31,7 @@ html {
 @import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
+  --background: #f4f4f4;
   --foreground: #171717;
 }
 
@@ -50,7 +50,7 @@ html {
 }
 
 body {
-  background: #ffffff; 
+  background: #f4f4f4; 
   color: var(--foreground);
   font-family: var(--font-sans);
 }

@@ -47,7 +47,7 @@ export default function Footer() {
 
       <div className="border-t border-white/15">
         <div className="mx-auto max-w-6xl px-4 py-4 text-xs text-gray-400 sm:px-6 lg:px-8">
-          © {new Date().getFullYear()} MyLogo. All rights reserved.
+          © {new Date().getFullYear()} MyPortfolio.
         </div>
       </div>
     </footer>
