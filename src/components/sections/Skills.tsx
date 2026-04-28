@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useMemo, useState } from "react";
 import { skills } from "@/data/data";
+import { MoveLeft, MoveRight } from "lucide-react";
 
 type Skill = {
   name: string;
@@ -41,7 +42,7 @@ export default function Skills() {
                 {group.map((skill, index) => (
                   <div
                     key={`${skill.name}-${index}`}
-                    className="group flex aspect-square w-full flex-col items-center justify-center gap-4 rounded-md border-2 border-black bg-white transition-colors duration-300 hover:bg-black"
+                    className="group flex aspect-square w-full flex-col items-center justify-center gap-4 rounded-md  bg-white transition-colors duration-300 hover:scale-[1.01] transition-transform  hover:bg-black"
                   >
                     <Image
                       src={skill.icon}
@@ -66,7 +67,7 @@ export default function Skills() {
               onClick={prev}
               className="rounded-md border border-black px-4 py-2 text-sm text-[#71717a] font-medium hover:bg-black hover:text-white"
             >
-              Prev
+              <MoveLeft />
             </button>
             <span className="text-sm text-zinc-600">
               {page + 1} / {pages.length}
@@ -75,7 +76,7 @@ export default function Skills() {
               onClick={next}
               className="rounded-md border border-black px-4 py-2 text-sm text-[#71717a] font-medium hover:bg-black hover:text-white"
             >
-              Next
+              <MoveRight />
             </button>
           </div>
         )}
