@@ -9,10 +9,10 @@ import { socialLinks } from "@/data/data";
 import type { ContactFormValues, ApiResponse } from "@/data/data";
 
 const fieldClass =
-  "w-full max-w-[500px] h-14 border rounded-md border-black text-black px-3 transition-colors hover:bg-neutral-100 outline-none placeholder:text-[#71717A]";
+  "w-full max-w-[500px] h-14  rounded-md text-black bg-white px-3 transition-colors outline-none placeholder:text-[#71717A]";
 
 const textareaClass =
-  "w-full max-w-[500px] h-[140px] border rounded-md border-black text-black px-3 py-3 transition-colors hover:bg-neutral-100 resize-none outline-none placeholder:text-[#71717A]";
+  "w-full max-w-[500px] h-[140px]  rounded-md  bg-white text-black px-3 py-3 transition-colors resize-none outline-none placeholder:text-[#71717A]";
 
 
 
@@ -71,7 +71,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="scroll-mt-16 border-t border-neutral-200 bg-white px-4 py-16 sm:px-6 lg:px-8"
+      className="scroll-mt-16 border-t border-neutral-200 px-4 py-16 sm:px-6 lg:px-8"
     >
       <div className="mx-auto grid max-w-6xl gap-12 md:grid-cols-2 md:items-start md:gap-16">
         {/* Left: form */}

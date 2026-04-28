@@ -4,7 +4,7 @@ import { navItems } from "@/data/data";
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur">
+    <header className="sticky top-0 z-50  border-gray-200 bg-neutral-100 backdrop-blur">
       <nav className="relative mx-auto flex h-16 max-w-6xl items-center px-4 sm:px-6 lg:px-8">
         <Link
           href="#hero"

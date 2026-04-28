@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useMemo, useState } from "react";
 import { projects } from "@/data/data";
 import type { ProjectItem } from "@/data/data";
+import { MoveLeft, MoveRight } from "lucide-react";
 
 const PAGE_SIZE = 3;
 
@@ -77,7 +78,7 @@ export default function Projects() {
                           {project.description}
                         </p>
 
-                        {project.link ? (
+                        {/* {project.link ? (
                           <a
                             href={project.link}
                             target="_blank"
@@ -86,7 +87,7 @@ export default function Projects() {
                           >
                            <Image src="/external-link-svgrepo-com white.svg" alt="View Project" width={20} height={20} />
                           </a>
-                        ) : null}
+                        ) : null} */}
                       </div>
                     </article>
                   );
@@ -103,7 +104,7 @@ export default function Projects() {
               aria-label="Previous projects"
               className="rounded-md border border-white px-4 py-2 text-white transition-colors duration-300 hover:bg-white hover:text-black"
             >
-              Prev
+              <MoveLeft />
             </button>
             <span className="text-sm text-zinc-300">
               {page + 1} / {pages.length}
@@ -113,7 +114,7 @@ export default function Projects() {
               aria-label="Next projects"
               className="rounded-md border border-white px-4 py-2 text-white transition-colors duration-300 hover:bg-white hover:text-black"
             >
-              Next
+              <MoveRight />
             </button>
           </div>
         )}

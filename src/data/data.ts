@@ -73,9 +73,9 @@ export const skills: Skill[] = [
   { name: "API Integration", icon: "/skills_icons/icon-api-integration.svg" },
   { name: "Postman", icon: "/skills_icons/icon-postman.svg" },
   { name: "Git", icon: "/skills_icons/icon-git.svg" },
-  { name: "Figma", icon: "/skills_icons/icon-figma.svg" },
   { name: "SQL", icon: "/skills_icons/icon-sql.svg" },
   { name: "Laravel", icon: "/skills_icons/icon-laravel.svg" },
+  { name: "Figma", icon: "/skills_icons/icon-figma.svg" },
   { name: "HTML", icon: "/skills_icons/icon-html.svg" },
   { name: "CSS", icon: "/skills_icons/icon-css.svg" },
 ];
