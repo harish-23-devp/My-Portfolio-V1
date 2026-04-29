@@ -78,7 +78,7 @@ export default function Projects() {
                           {project.description}
                         </p>
 
-                        {/* {project.link ? (
+                        {project.link ? (
                           <a
                             href={project.link}
                             target="_blank"
@@ -87,7 +87,7 @@ export default function Projects() {
                           >
                            <Image src="/external-link-svgrepo-com white.svg" alt="View Project" width={20} height={20} />
                           </a>
-                        ) : null} */}
+                        ) : null}
                       </div>
                     </article>
                   );
