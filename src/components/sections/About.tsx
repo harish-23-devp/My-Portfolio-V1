@@ -22,11 +22,22 @@ export default function About() {
 
           <div className="space-y-5 text-base leading-7 text-zinc-600">
             <p>
-              Frontend developer specializing in responsive web applications built with React, Next.js, and JavaScript. Focus on converting designs into clean, reusable code and creating user interfaces that are fast, scalable, and intuitive.</p>
+              I began my journey turning simple design ideas into real,
+              interactive interfaces. Over the years, working with React and
+              Next.js, I’ve learned how to build fast, scalable, and intuitive
+              UIs that feel effortless to use.
+            </p>
             <p>
-              Familiar with backend concepts and API integration, enabling smooth collaboration with backend teams and contributions beyond just the UI layer. Strong understanding of design structure ensures accurate UI conversion and developer-friendly interfaces.</p>
+              Collaborating with backend teams and handling API integrations
+              gave me a deeper understanding of full-stack workflows. What
+              motivates me is the craft — clean components, smooth interactions,
+              and attention to detail in every build.
+            </p>
             <p>
-              Currently seeking opportunities to build impactful products with modern frontend stacks and strong engineering teams.</p>
+              I’m now looking for opportunities to create meaningful digital
+              experiences with modern frontend technologies and strong
+              engineering teams.
+            </p>
           </div>
         </div>
       </div>

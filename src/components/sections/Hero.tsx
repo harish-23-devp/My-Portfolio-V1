@@ -2,9 +2,6 @@
 
 import Image from "next/image";
 import { socialLinks } from "@/data/data";
-// import { Tooltip } from "react-tooltip";
-// import "react-tooltip/dist/react-tooltip.css";
-
 
 const Hero = () => {
     return (
@@ -27,8 +24,10 @@ const Hero = () => {
                             </span>
                         </h2>
                         <p className="pt-4 text-[16px] font-normal leading-7 text-[#71717a]">
-                            2+ years crafting responsive UIs with React, Next.js,
-                            TypeScript & Tailwind. Skilled in Figma-to-code conversion and performance optimization.
+                            {/* 2+ years crafting responsive UIs with React, Next.js,
+                            TypeScript & Tailwind. Skilled in Figma-to-code conversion and performance optimization. */}
+                            I build responsive and accessible UIs using React, Next.js, TypeScript and Tailwind.
+                            Focused on clean components, smooth interactions and performance
                         </p>
                         <div className="flex items-center gap-3 pt-20">
                             {socialLinks.map((item) => (
@@ -38,8 +37,6 @@ const Hero = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label={item.name}
-                                    // data-tooltip-id="social-tooltip"
-                                    // data-tooltip-content={item.name}
                                     className="group inline-flex h-11 w-11 items-center justify-center rounded-md border-2 border-black p-2 transition-all duration-300 hover:bg-black"
                                 >
                                     <Image
@@ -72,14 +69,6 @@ const Hero = () => {
                             </svg>
                             </a>
                         </div>
-                        {/* <Tooltip
-              id="social-tooltip"
-              delayShow={80}
-              delayHide={80}
-              place="top"
-              positionStrategy="fixed"
-              className="!pointer-events-none !rounded-md !bg-black !px-3 !py-2 !text-sm !text-white"
-            /> */}
                     </div>
 
                     {/* Right Image */}

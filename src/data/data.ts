@@ -87,41 +87,57 @@ export const experiences: ExperienceItem[] = [
       logo: "/orisyslogo.svg",
       duration: "Jun 2023 - Present",
       roleDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Contributed to multiple live projects by developing responsive interfaces, integrating APIs, and improving accessibility and performance. Collaborated with backend teams to deliver scalable, production-ready features.",
     },
 ];
 
 export const projects: ProjectItem[] = [
   {
     id: "01",
-    title: "Portfolio Website",
+    title: "AOAOK",
     description:
-      "A modern portfolio built with Next.js App Router, TypeScript, and Tailwind CSS.",
+      "Led key feature development for AOAOK, an agriculture-focused digital magazine platform, including the full membership renewal module using React and NestJS.",
     image: "/projects/2023-Porsche-911-GT3-RS-009-1536.jpg",
     link: "https://example.com/project-1",
   },
   {
     id: "02",
-    title: "E-commerce Frontend",
+    title: "Visually Impaired Agent Calling System",
     description:
-      "Responsive storefront UI with reusable components, smooth interactions, and clean UX.",
+      "Built an accessible banking call system for visually impaired agents with full JAWS support, using React and Laravel",
     image: "/projects/2018-BMW-M3-CS-001-1536.jpg",
     link: "https://example.com/project-2",
   },
   {
     id: "03",
-    title: "Task Management App",
+    title: "Oricoms",
     description:
-      "Productivity-focused app with drag-drop workflows and clear visual hierarchy.",
+      "Integrated Facebook APIs to streamline social media interactions, sync lead data, and enhance automated engagement for the Oricoms platform.",
     image: "/projects/2022-Dodge-Challenger-SRT-Hellcat-Jailbreak-001-1536.jpg",
     link: "https://example.com/project-3",
   },
   {
     id: "04",
-    title: "Analytics Dashboard",
+    title: "Smart Chlorinator (IoT)",
     description:
-      "Data-rich dashboard with responsive cards, filters, and performance-focused rendering.",
+      "Developed an interactive IoT dashboard for real-time sensor monitoring and control, with full CRUD and filtering features using React.",
     image: "/projects/2022-Ford-Mustang-Shelby-GT500-013-1536.jpg",
     link: "https://example.com/project-4",
+  },
+    {
+    id: "05",
+    title: "Hll Lifecare",
+    description:
+      "Improved application stability by resolving backend issues, optimizing database operations, and supporting seamless deployments using Laravel.",
+    image: "/projects/2022-Ford-Mustang-Shelby-GT500-013-1536.jpg",
+    link: "https://example.com/project-5",
+  },
+  {
+    id: "06",
+    title: "MultiSite Job Portal",
+    description:
+      "Developed responsive job listing and employer management modules to streamline applications and improve user workflows using React and Node.js.",
+    image: "/projects/2022-Ford-Mustang-Shelby-GT500-013-1536.jpg",
+    link: "https://example.com/project-6",
   },
 ];
