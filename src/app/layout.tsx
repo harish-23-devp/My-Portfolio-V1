@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Sora, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "next-themes";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -47,7 +46,6 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <>
             {children}
-            <Footer />
           </>
         </ThemeProvider>
       </body>
