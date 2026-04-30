@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import { projects } from "@/data/data";
 import type { ProjectItem } from "@/data/data";
 import { MoveLeft, MoveRight } from "lucide-react";
+import Link from "next/link";
 
 const PAGE_SIZE = 3;
 
@@ -75,18 +76,18 @@ export default function Projects() {
                         </h3>
 
                         <p className="text-[16px] font-normal leading-7 text-zinc-300">
-                          {project.description}
+                          {project.shortDescription}
                         </p>
 
-                        {project.link ? (
-                          <a
-                            href={project.link}
-                            target="_blank"
+                        {project.id ? (
+                          <Link
+                            href={`/projects/${project.id}`}
+                            // target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex w-fit rounded-md border border-white px-4 py-2 text-sm font-semibold text-white transition-colors duration-300 hover:bg-white hover:text-black"
+                            className="inline-flex w-fit rounded-md border border-white px-4 py-2 text-sm font-semibold text-white transition-colors duration-300 hover:bg-white"
                           >
                            <Image src="/external-link-svgrepo-com white.svg" alt="View Project" width={20} height={20} />
-                          </a>
+                          </Link>
                         ) : null}
                       </div>
                     </article>

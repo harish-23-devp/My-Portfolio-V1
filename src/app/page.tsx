@@ -5,6 +5,7 @@ import Experience from "@/components/sections/Experience";
 import About from "@/components/sections/About";
 import Contact from "@/components/sections/Contact";
 import Projects from "@/components/sections/Projects";
+import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Projects />
         <Contact />
       </main>
+      <Footer />
     </>
   );
 }
