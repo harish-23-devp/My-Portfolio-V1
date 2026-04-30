@@ -1,4 +1,6 @@
 import Image from "next/image";
+import CountUp from "../ui/CountUp";
+import { stats } from "../../data/data";
 
 export default function About() {
   return (
@@ -33,11 +35,22 @@ export default function About() {
               motivates me is the craft — clean components, smooth interactions,
               and attention to detail in every build.
             </p>
-            <p>
-              I’m now looking for opportunities to create meaningful digital
-              experiences with modern frontend technologies and strong
-              engineering teams.
-            </p>
+          </div>
+          <div className="mt-10 w-[610px] flex justify-between text-black">
+            {stats.map((item, index) => (
+              <div
+                key={index}
+                className="w-[172px] h-[159px] border-2 border-black rounded-md flex flex-col items-center justify-center text-center"
+              >
+                <div className="w-[140px] h-[52px] text-3xl font-bold flex items-center justify-center">
+                  <CountUp end={item.value} />
+                  {item.suffix}
+                </div>
+                <div className="mt-6 w-[134px] h-[24px] font-bold text-sm text-zinc-600 flex items-center justify-center">
+                  {item.label}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
