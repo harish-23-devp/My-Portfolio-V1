@@ -36,17 +36,17 @@ export default function About() {
               and attention to detail in every build.
             </p>
           </div>
-          <div className="mt-10 w-[610px] flex justify-between text-black">
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 text-black">
             {stats.map((item, index) => (
               <div
                 key={index}
-                className="w-[172px] h-[159px] border-2 border-black rounded-md flex flex-col items-center justify-center text-center"
+                className="min-h-[159px] border-2 border-black rounded-md flex flex-col items-center justify-center text-center p-4"
               >
-                <div className="w-[140px] h-[52px] text-3xl font-bold flex items-center justify-center">
+                <div className="text-3xl font-bold">
                   <CountUp end={item.value} />
                   {item.suffix}
                 </div>
-                <div className="mt-6 w-[134px] h-[24px] font-bold text-sm text-zinc-600 flex items-center justify-center">
+                <div className="mt-4 font-bold text-sm text-zinc-600">
                   {item.label}
                 </div>
               </div>
