@@ -47,6 +47,7 @@ export default function Projects() {
 
                   return (
                     <article
+                      id={`project-${project.id}`}
                       key={project.id}
                       className="mx-auto grid min-h-[516px] w-full max-w-[1216px] grid-cols-1 items-center gap-[20px] rounded-xl  p-4 md:grid-cols-2 md:p-5"
                     >
