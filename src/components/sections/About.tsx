@@ -24,16 +24,17 @@ export default function About() {
 
           <div className="space-y-5 text-base leading-7 text-zinc-600">
             <p>
-              I began my journey turning simple design ideas into real,
-              interactive interfaces. Over the years, working with React and
-              Next.js, I’ve learned how to build fast, scalable, and intuitive
-              UIs that feel effortless to use.
+              I began my journey as a software engineer turning simple design
+              ideas into real, interactive products. Over the years, working with
+              React and Next.js, I’ve learned how to build fast, scalable,
+              and intuitive web applications that solve real user problems.
             </p>
             <p>
               Collaborating with backend teams and handling API integrations
-              gave me a deeper understanding of full-stack workflows. What
-              motivates me is the craft — clean components, smooth interactions,
-              and attention to detail in every build.
+              gave me a deeper understanding of software architecture and
+              delivery workflows. What motivates me is the craft of software
+              engineering — clean code, reliable systems, and attention to detail
+              in every build.
             </p>
           </div>
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 text-black">

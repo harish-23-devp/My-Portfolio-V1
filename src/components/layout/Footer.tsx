@@ -10,7 +10,7 @@ export default function Footer() {
             My Portfolio
           </Link>
           <p className="max-w-sm text-sm text-gray-300">
-            Frontend developer building clean and user-friendly web experiences.
+            Software engineer building clean and user-friendly web experiences.
           </p>
         </div>
 
