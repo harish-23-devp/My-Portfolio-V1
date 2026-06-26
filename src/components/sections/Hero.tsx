@@ -18,16 +18,14 @@ const Hero = () => {
                             <span className="font-extrabold text-black">Harish H V</span>
                         </h1>
                         <h2 className="text-5xl leading-tight sm:text-5xl">
-                            <span className="font-extrabold text-black">Frontend </span>
+                            <span className="font-extrabold text-black">Software </span>
                             <span className="font-extrabold text-transparent [-webkit-text-stroke:1.5px_black]">
-                                Developer
+                                Engineer
                             </span>
                         </h2>
                         <p className="pt-4 text-[16px] font-normal leading-7 text-[#71717a]">
-                            {/* 2+ years crafting responsive UIs with React, Next.js,
-                            TypeScript & Tailwind. Skilled in Figma-to-code conversion and performance optimization. */}
-                            I build responsive and accessible UIs using React, Next.js, TypeScript and Tailwind.
-                            Focused on clean components, smooth interactions and performance
+                            I build robust and accessible web applications using React, Next.js, TypeScript, and Tailwind.
+                            Focused on clean architecture, strong performance, and polished user experiences.
                         </p>
                         <div className="flex items-center gap-3 pt-20">
                             {socialLinks.map((item) => (
