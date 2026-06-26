@@ -29,7 +29,7 @@ export default function Navbar() {
         <div className="ml-auto flex items-center gap-3">
           {/* <ThemeToggle /> */}
           <a
-            href="/Harish_Frontend_Developer_Resume.pdf"
+            href="/Harish_Software Engineer_Resume.pdf"
             download
             title="Resume"
             className="inline-flex items-center gap-2 rounded-full border border-gray-300 bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm transition hover:text-black hover:bg-gray-50"

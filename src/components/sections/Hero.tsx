@@ -49,7 +49,7 @@ const Hero = () => {
                                 </a>
                             ))}
                             <a
-                            href="/Harish_Frontend_Developer_Resume.pdf"
+                            href="/Harish_Software Engineer_Resume.pdf"
                             download
                             className="inline-flex items-center gap-2 rounded-lg border-2 border-black bg-white px-4 py-2 h-11 text-sm font-semibold text-black shadow-sm transition hover:text-white hover:bg-black"
                             >
